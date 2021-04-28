@@ -1,9 +1,9 @@
 def revision_de_examenes(cantidad, porcentaje):
-"""
-    Se ingresa la cantidad de ejercicios que completa un alumno
-    y dependiendo del porcentaje para aprobar la funcion devuelve
-    si aprobo o no
-"""
+    """
+        Se ingresa la cantidad de ejercicios que completa un alumno
+        y dependiendo del porcentaje para aprobar la funcion devuelve
+        si aprobo o no
+    """
     valorcentinela  = ""
     cantidadporcentaje = (cantidad*porcentaje)//100
     numerosdealumnos = 0
