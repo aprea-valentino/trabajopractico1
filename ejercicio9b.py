@@ -1,6 +1,8 @@
 import time
-""" En este programa cada vez que el usuario ingresa una contraseña incorrecto
-    se le restan los intentos y se le pone una penalizacion de tiempo """
+"""
+    En este programa cada vez que el usuario ingresa una contraseña incorrecto
+    se le restan los intentos y se le pone una penalizacion de tiempo
+"""
 passwordVerdadera="islaballena"
 password= input("Ingrese la contra: ")
 if passwordVerdadera == password :
