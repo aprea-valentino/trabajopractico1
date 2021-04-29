@@ -7,7 +7,7 @@
 import random
 digitos = ('0','1','2','3','4','5','6','7','8','9')
 codigo=''
-
+# Este for genera el codigo sin digitos repetidos
 for i in range(4):
     numero= random.choice(digitos)
     while numero in codigo:
@@ -17,6 +17,7 @@ for i in range(4):
 print("tiene que adivinar un numero de", 4,"cifras distintas")
 codigo2=input("Ingresa un codigo:  ")
 intentos = 1
+
 while codigo2 != codigo:
     intentos = intentos +1
     aciertos = 0
