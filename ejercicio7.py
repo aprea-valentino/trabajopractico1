@@ -1,8 +1,8 @@
-def año_bisiesto_si_o_no(año):
+def año_bisiesto_si_o_no(ano):
     """
         Verifica si el año ingresado es bisiesto
     """
-    if ((año%4 == 0 and año % 100 != 0) or año%400 == 0):
+    if ((ano%4 == 0 and ano % 100 != 0) or ano % 400 == 0):
         return True
     else:
         return False
@@ -15,7 +15,7 @@ def mes_a_dias(mes):
     else:
         return 31
 
-def validar_fecha(año,mes,dia):
+def validar_fecha(ano,mes,dia):
     validar = True
     if (0 > mes or mes > 12):
         validar = False
@@ -30,7 +30,7 @@ def validar_fecha(año,mes,dia):
     else:
         print("fecha no valida")
         
-def dias_faltantes(año,mes,dia):
+def dias_faltantes(ano,mes,dia):
     """
         Esta funcion calcula la cantidad de dias
         para completar el mes
@@ -44,7 +44,7 @@ def dias_faltantes(año,mes,dia):
     return diasfaltantes
 
 
-def dias_faltantes_años(año,mes,dia):
+def dias_faltantes_años(ano,mes,dia):
     """
         Esta funcion calcula la cantidad de dias
         que faltan para completar el año
