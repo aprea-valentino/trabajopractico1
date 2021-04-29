@@ -1,5 +1,6 @@
 def inversion_de_listas(lista):
-    """ Se ingresa un lista y la devuelve una nueva lista
+    """
+        Se ingresa un lista y la devuelve una nueva lista
         con el contenido invertido+
     """
     if not lista:
